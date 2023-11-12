@@ -1,0 +1,9 @@
+apiVersion: v2
+name: nginx-simple-app
+version: 0.1.1
+type: application
+appVersion: "0.1.1"
+dependencies:
+  - name: nginx-chart
+    version: 0.1.0
+    repository: https://agolohelmcharts.azurecr.io/helm
