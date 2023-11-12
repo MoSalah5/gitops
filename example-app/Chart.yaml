@@ -6,4 +6,4 @@ appVersion: "0.1.1"
 dependencies:
   - name: nginx-chart
     version: 0.1.0
-    repository: https://agolohelmcharts.azurecr.io/helm
+    repository: oci://agolohelmcharts.azurecr.io/helm
