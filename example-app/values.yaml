@@ -1,14 +1,15 @@
-replicaCount: 2
-
-image:
-  repository: nginx
-  tag: latest
-  pullPolicy: IfNotPresent
-
-service:
-  name: nginx
-  type: ClusterIP
-  port: 80
-
-ingress:
-  enabled: false
+nginx-chart:
+  replicaCount: 2
+  
+  image:
+    repository: nginx
+    tag: latest
+    pullPolicy: IfNotPresent
+  
+  service:
+    name: nginx
+    type: ClusterIP
+    port: 80
+  
+  ingress:
+    enabled: false
