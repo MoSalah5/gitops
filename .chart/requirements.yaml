@@ -1,0 +1,4 @@
+dependencies:
+  - name: nginx-chart
+    version: 0.1.0
+    repository: oci://agolohelmcharts.azurecr.io/helm
